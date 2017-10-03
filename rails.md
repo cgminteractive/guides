@@ -12,13 +12,9 @@ and [these dotfiles](https://github.com/thoughtbot/dotfiles).
 Create App
 ----------
 
-Get Suspenders.
-
-    gem install suspenders
-
 Create the app.
 
-    suspenders app --heroku true --github organization/app
+    rails new appname -T --webpack --database=postgresql
 
 Set Up App
 ----------
