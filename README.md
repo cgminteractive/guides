@@ -37,3 +37,5 @@ Credits
 ![cgm](https://avatars1.githubusercontent.com/u/10520654?v=4&s=200)
 
 Guides are maintained by [CGM Interactive](http://cgminteractive.com/).
+
+Heavily inspired by [thoughtbot's](https://thoughtbot.com/) [guides](https://github.com/thoughtbot/guides) and [playbook](https://thoughtbot.com/playbook).
