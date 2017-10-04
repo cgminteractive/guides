@@ -3,18 +3,18 @@ CGM Technology Guides
 
 Guides for getting things done, programming well, and programming in style. This document is aspirational. We are all human and we acknowedge that we are always constantly growing, learning, and improving ourselves and our development practices. There is no shame in having written code that does not live up to these guidelines. They are, in part, a reference manual for completing common tasks in software development, and partly an ideal of quality of code to which we aspire.
 
-* [Best Practices](./best-practices.md)
-* [Acceptance Tests](/acceptance-tests.md)
-* [Continuous Integration](/continuous-integration.md)
-* [Git](/git.md)
-* [Hosting](/hosting.md)
-* [Pair Programming](/pair-programming.md)
-* [Rails](/rails.md)
-* [Test Driven Development](/test-driven-development.md)
-* [Product Review](./product-review.md)
-* [Code Review](./code-review.md)
 * [Stack](./stack.md)
 * [Style](./style-guide.md)
+* [Best Practices](./best-practices.md)
+* [Pair Programming](/pair-programming.md)
+* [Test Driven Development](/test-driven-development.md)
+* [Acceptance Tests](/acceptance-tests.md)
+* [Rails](/rails.md)
+* [Git](/git.md)
+* [Product Review](./product-review.md)
+* [Code Review](./code-review.md)
+* [Continuous Integration](/continuous-integration.md)
+* [Hosting](/hosting.md)
 
 High level guidelines:
 
