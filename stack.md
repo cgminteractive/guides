@@ -112,6 +112,21 @@ Tools Needed
 You can easily set up your developmnet environment using scripts like [this](https://github.com/thoughtbot/laptop)
 and dotfiles like [these](https://github.com/thoughtbot/dotfiles).
 
+Software:
+
+* [Postman](https://www.getpostman.com/postman) for API development and HTTP testing
+* [Slack](https://slack.com/) for team communication
+* [LICEcap](https://www.cockos.com/licecap/) for easy screencap gifs for demoing features
+* [RequestBin](https://requestbin.fullcontact.com/) for testing HTTP resquest payloads
+* [Visual Studio Code](https://code.visualstudio.com/) or whatever your preferred text editor is.
+* [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
+* [Rally](https://rally1.rallydev.com/slm/login.op) Agile project management tool
+* [Github](https://github.com/) for code version control storage
+* [Tsheets](https://www.tsheets.com/) for time tracking
+* [Asana](https://asana.com/) for high-level project management
+* [Transmit](https://panic.com/transmit/) FTP client
+* [G Suite](https://gsuite.google.com/) for team collaboration and file sharing
+
 macOS tools:
 
 * [Homebrew] for managing operating system libraries.
