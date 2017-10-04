@@ -1,7 +1,7 @@
 CGM Technology Guides
 =====================
 
-Guides for getting things done, programming well, and programming in style.
+Guides for getting things done, programming well, and programming in style. This document is aspirational. We are all human and we acknowedge that we are always constantly growing, learning, and improving ourselves and our development practices. There is no shame in having written code that does not live up to these guidelines. They are, in part, a reference manual for completing common tasks in software development, and partly an ideal of quality of code to which we aspire.
 
 * [Best Practices](./best-practices.md)
 * [Process](/process)

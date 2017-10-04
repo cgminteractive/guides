@@ -4,15 +4,17 @@ CGM Tech Stack
 Frameworks and Services
 ----------------------
 
-Payment Gateway:
+Payment Gateways:
 
-* [Authorize.net API](https://developer.authorize.net/) for payment processing and subscriptions
-* [Authorize.net Webhooks](https://developer.authorize.net/api/reference/features/webhooks.html) for failed payment notifications
+* [Authorize.net](https://www.authorize.net/)
+* [Stripe](https://stripe.com/)
+* [Plaid](https://plaid.com/)
 
-Application Framework
+Application Frameworks: 
 
 * [Ruby on Rails](http://guides.rubyonrails.org/) for MVC web application
 * [FeathersJS](https://docs.feathersjs.com/) for real-time service layer
+* [Sinatra](http://www.sinatrarb.com/) for lightweight web apps
 
 Suggested Application gems:
 
@@ -75,14 +77,18 @@ Yarn Packages:
 
 * [FeathersJS Client](https://github.com/feathersjs/feathers-client) for interfacing with services layer
 * [Boostrap](https://www.npmjs.com/package/bootstrap) for front end layout and mobile-first design
+* [Moment](https://momentjs.com/) for manipulating dates and time in JS
 
 Salesforce Integration:
 
 * [Heroku Connect](https://www.heroku.com/connect) for Salesforce data sync
+* [REST API](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm) for REST connections
+* [APEX REST](https://developer.salesforce.com/page/Creating_REST_APIs_using_Apex_REST) for custom REST endpoints
 
 Hosting:
 
-* [Heroku](https://www.heroku.com/)
+* [Heroku](https://www.heroku.com/) for 98% of hosting needs
+* [Digital Ocean](https://www.digitalocean.com/) for the other 2%
 
 Transactional Email:
 
@@ -93,6 +99,7 @@ Transactional Email:
 Image Storage + CDN:
 
 * [AWS S3 + Cloudfront](https://aws.amazon.com/cloudfront/)
+* [Cloudinary](https://cloudinary.com/)
 
 Continuous Integration:
 
@@ -101,6 +108,9 @@ Continuous Integration:
 
 Tools Needed
 ------------
+
+You can easily set up your developmnet environment using scripts like [this](https://github.com/thoughtbot/laptop)
+and dotfiles like [these](https://github.com/thoughtbot/dotfiles).
 
 macOS tools:
 
@@ -113,10 +123,12 @@ Unix tools:
 * [Git] for version control
 * [OpenSSL] for Transport Layer Security (TLS)
 * [Zsh] as your shell
+* [ngrok] for demoing local apps
 
 [Git]: https://git-scm.com/
 [OpenSSL]: https://www.openssl.org/
 [Zsh]: http://www.zsh.org/
+[ngrok]: https://ngrok.com/
 
 Heroku tools:
 
