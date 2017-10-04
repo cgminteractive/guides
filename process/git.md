@@ -1,7 +1,11 @@
 Git Protocol
 ============
 
-A guide for programming within version control.
+We always use source code control. It's like a time machine. We can work in parallel universes of our source code, experimenting without fear of losing work, rolling back if something goes wrong.
+
+Git is an open source source code control system written by Linus Torvalds. It's fast and great for working in branches.
+
+We use GitHub for hosting our Git repositories.
 
 Maintain a Repo
 ---------------
@@ -43,7 +47,6 @@ Write a [good commit message]. Example format:
     Present-tense summary under 50 characters
 
     * More information about commit (under 72 characters).
-    * More information about commit (under 72 characters).
 
     http://project.management-system.com/ticket/123
 
@@ -68,7 +71,7 @@ Review Code
 -----------
 
 A team member other than the author reviews the pull request. They follow
-[Code Review](/code-review) guidelines to avoid
+[Code Review](/code-review.md) guidelines to avoid
 miscommunication.
 
 They make comments and ask questions directly on lines of code in the GitHub

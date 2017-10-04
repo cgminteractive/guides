@@ -46,17 +46,17 @@ like Heroku's [Cedar](https://devcenter.heroku.com/articles/cedar/) stack.
 Git Protocol
 ------------
 
-Follow the normal [Git Protocol](/protocol/git).
+Follow the normal [Git Protocol](/process/git.md).
 
 Product Review
 --------------
 
-Follow the normal [Product Review protocol](/protocol/product-review).
+Follow the normal [Product Review protocol](/product-review.md).
 
 Code Review
 -----------
 
-Follow the normal [Code Review guidelines](/code-review). When reviewing others'
+Follow the normal [Code Review guidelines](/code-review.md). When reviewing others'
 Rails work, look in particular for:
 
 * Review data integrity closely, such as migrations that make irreversible

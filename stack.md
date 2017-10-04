@@ -1,6 +1,8 @@
-# CGM Tech Stack
+CGM Tech Stack
+==============
 
-## Frameworks and Services
+Frameworks and Services
+----------------------
 
 Payment Gateway:
 
@@ -37,6 +39,7 @@ Suggested Application gems:
 * [Smarter CSV](https://github.com/tilo/smarter_csv) for CSV loading
 * [PDFKit](https://github.com/pdfkit/pdfkit) for using HTML/CSS to gernerate PDFs
 * [Delayed Job](https://github.com/collectiveidea/delayed_job) for background processing
+* [Oj](https://github.com/ohler55/oj) for JSON parsing
 
 Suggested Development gems:
 
@@ -91,7 +94,8 @@ Image Storage + CDN:
 
 * [AWS S3 + Cloudfront](https://aws.amazon.com/cloudfront/)
 
-## Tools Needed
+Tools Needed
+------------
 
 macOS tools:
 

@@ -68,10 +68,8 @@ experience, refactors the existing code). Then:
 Style Comments
 --------------
 
-Reviewers should comment on missed [style](../style)
+Reviewers should comment on missed [style](style-guide.md)
 guidelines. Example comment:
-
-    [Style](../style):
 
     > Order resourceful routes alphabetically by name.
 
