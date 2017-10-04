@@ -1,6 +1,93 @@
 CGM Tech Stack
 ==============
 
+Tools Needed
+------------
+
+You can easily set up your developmnet environment using scripts like [this](https://github.com/thoughtbot/laptop)
+and dotfiles like [these](https://github.com/thoughtbot/dotfiles).
+
+Software:
+
+* [Postman](https://www.getpostman.com/postman) for API development and HTTP testing
+* [Slack](https://slack.com/) for team communication
+* [LICEcap](https://www.cockos.com/licecap/) for easy screencap gifs for demoing features
+* [RequestBin](https://requestbin.fullcontact.com/) for testing HTTP resquest payloads
+* [Visual Studio Code](https://code.visualstudio.com/) or whatever your preferred text editor is.
+* [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
+* [Rally](https://rally1.rallydev.com/slm/login.op) Agile project management tool
+* [Github](https://github.com/) for code version control storage
+* [Tsheets](https://www.tsheets.com/) for time tracking
+* [Asana](https://asana.com/) for high-level project management
+* [Transmit](https://panic.com/transmit/) FTP client
+* [G Suite](https://gsuite.google.com/) for team collaboration and file sharing
+
+macOS tools:
+
+* [Homebrew] for managing operating system libraries.
+
+[Homebrew]: http://brew.sh/
+
+Unix tools:
+
+* [Git] for version control
+* [OpenSSL] for Transport Layer Security (TLS)
+* [Zsh] as your shell
+* [ngrok] for demoing local apps
+
+[Git]: https://git-scm.com/
+[OpenSSL]: https://www.openssl.org/
+[Zsh]: http://www.zsh.org/
+[ngrok]: https://ngrok.com/
+
+Heroku tools:
+
+* [Heroku CLI] and [Parity] for interacting with the Heroku API
+
+[Heroku CLI]: https://devcenter.heroku.com/articles/heroku-cli
+[Parity]: https://github.com/thoughtbot/parity
+
+GitHub tools:
+
+* [Hub] for interacting with the GitHub API
+
+[Hub]: http://hub.github.com/
+
+Image tools:
+
+* [ImageMagick] for cropping and resizing images
+
+Testing tools:
+
+* [Qt 5] for headless JavaScript testing via [Capybara Webkit]
+
+[Qt 5]: http://qt-project.org/
+[Capybara Webkit]: https://github.com/thoughtbot/capybara-webkit
+
+Programming languages, package managers, and configuration:
+
+* [ASDF] for managing programming language versions
+* [Bundler] for managing Ruby libraries
+* [Node.js] and [NPM], for running apps and installing JavaScript packages
+* [Ruby] stable for writing general-purpose code
+* [Yarn] for managing JavaScript packages
+
+[Bundler]: http://bundler.io/
+[ImageMagick]: http://www.imagemagick.org/
+[Node.js]: http://nodejs.org/
+[NPM]: https://www.npmjs.org/
+[ASDF]: https://github.com/asdf-vm/asdf
+[Ruby]: https://www.ruby-lang.org/en/
+[Yarn]: https://yarnpkg.com/en/
+
+Databases:
+
+* [Postgres] for storing relational data
+* [Redis] for storing key-value data
+
+[Postgres]: http://www.postgresql.org/
+[Redis]: http://redis.io/
+
 Frameworks and Services
 ----------------------
 
@@ -10,7 +97,7 @@ Payment Gateways:
 * [Stripe](https://stripe.com/)
 * [Plaid](https://plaid.com/)
 
-Application Frameworks: 
+Application Frameworks:
 
 * [Ruby on Rails](http://guides.rubyonrails.org/) for MVC web application
 * [FeathersJS](https://docs.feathersjs.com/) for real-time service layer
@@ -105,90 +192,3 @@ Continuous Integration:
 
 * [Travis CI](https://travis-ci.org/) for open source testing and public repos
 * [Travis CI Pro](https://travis-ci.com/) for closed source testing and private repos
-
-Tools Needed
-------------
-
-You can easily set up your developmnet environment using scripts like [this](https://github.com/thoughtbot/laptop)
-and dotfiles like [these](https://github.com/thoughtbot/dotfiles).
-
-Software:
-
-* [Postman](https://www.getpostman.com/postman) for API development and HTTP testing
-* [Slack](https://slack.com/) for team communication
-* [LICEcap](https://www.cockos.com/licecap/) for easy screencap gifs for demoing features
-* [RequestBin](https://requestbin.fullcontact.com/) for testing HTTP resquest payloads
-* [Visual Studio Code](https://code.visualstudio.com/) or whatever your preferred text editor is.
-* [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
-* [Rally](https://rally1.rallydev.com/slm/login.op) Agile project management tool
-* [Github](https://github.com/) for code version control storage
-* [Tsheets](https://www.tsheets.com/) for time tracking
-* [Asana](https://asana.com/) for high-level project management
-* [Transmit](https://panic.com/transmit/) FTP client
-* [G Suite](https://gsuite.google.com/) for team collaboration and file sharing
-
-macOS tools:
-
-* [Homebrew] for managing operating system libraries.
-
-[Homebrew]: http://brew.sh/
-
-Unix tools:
-
-* [Git] for version control
-* [OpenSSL] for Transport Layer Security (TLS)
-* [Zsh] as your shell
-* [ngrok] for demoing local apps
-
-[Git]: https://git-scm.com/
-[OpenSSL]: https://www.openssl.org/
-[Zsh]: http://www.zsh.org/
-[ngrok]: https://ngrok.com/
-
-Heroku tools:
-
-* [Heroku CLI] and [Parity] for interacting with the Heroku API
-
-[Heroku CLI]: https://devcenter.heroku.com/articles/heroku-cli
-[Parity]: https://github.com/thoughtbot/parity
-
-GitHub tools:
-
-* [Hub] for interacting with the GitHub API
-
-[Hub]: http://hub.github.com/
-
-Image tools:
-
-* [ImageMagick] for cropping and resizing images
-
-Testing tools:
-
-* [Qt 5] for headless JavaScript testing via [Capybara Webkit]
-
-[Qt 5]: http://qt-project.org/
-[Capybara Webkit]: https://github.com/thoughtbot/capybara-webkit
-
-Programming languages, package managers, and configuration:
-
-* [ASDF] for managing programming language versions
-* [Bundler] for managing Ruby libraries
-* [Node.js] and [NPM], for running apps and installing JavaScript packages
-* [Ruby] stable for writing general-purpose code
-* [Yarn] for managing JavaScript packages
-
-[Bundler]: http://bundler.io/
-[ImageMagick]: http://www.imagemagick.org/
-[Node.js]: http://nodejs.org/
-[NPM]: https://www.npmjs.org/
-[ASDF]: https://github.com/asdf-vm/asdf
-[Ruby]: https://www.ruby-lang.org/en/
-[Yarn]: https://yarnpkg.com/en/
-
-Databases:
-
-* [Postgres] for storing relational data
-* [Redis] for storing key-value data
-
-[Postgres]: http://www.postgresql.org/
-[Redis]: http://redis.io/
