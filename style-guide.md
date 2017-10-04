@@ -8,7 +8,7 @@ Git
 * Squash multiple trivial commits into a single commit.
 * Write a [good commit message].
 
-[rebase workflow]: /process/git.md
+[rebase workflow]: /git.md
 [good commit message]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 
 JavaScript

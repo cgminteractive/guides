@@ -48,7 +48,7 @@ like Heroku's [Cedar](https://devcenter.heroku.com/articles/cedar/) stack.
 Git process
 ------------
 
-Follow the normal [Git process](/process/git.md).
+Follow the normal [Git process](/git.md).
 
 Product Review
 --------------
