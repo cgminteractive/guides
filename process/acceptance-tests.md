@@ -1,7 +1,7 @@
 Acceptance Tests
 ================
 
-Acceptance tests are jobs stories turned into code. This code is run against the application. When executed for the first time, the test will fail. The developer writes application code until the test passes.
+Acceptance tests are user stories turned into code. This code is run against the application. When executed for the first time, the test will fail. The developer writes application code until the test passes.
 
 When the test passes, the developer commits the code into version control with a message such as:
 
@@ -9,6 +9,6 @@ When the test passes, the developer commits the code into version control with a
 
 The code is then run on the Continuous Integration server to make sure the acceptance test still passes in an environment that matches the production environment.
 
-Meanwhile, the code is pushed to the staging environment and the developer and customer representative smoke test it in the browser.
+Meanwhile, the code is pushed to the staging environment and the developer, QA tester, and product owner smoke test it in the browser.
 
-When the acceptance test is green for the CI server and you and any other designers, developers, or clients are satisfied that the jobs story is complete on staging, the feature can be deployed to production at will. This can result in features being pushed to production very frequently, and therefore more value is being delivered to customers sooner.
+When the acceptance test is green for the CI server and you and any other designers, developers, or clients are satisfied that the jobs story is complete on staging, the feature can be deployed to production at will, or during the next release (as determined by the release manager for the project). This can result in features being pushed to production very frequently, and therefore more value is being delivered to customers sooner.

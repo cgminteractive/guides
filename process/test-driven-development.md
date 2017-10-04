@@ -1,7 +1,7 @@
 Test-Driven Development
 ======================
 
-[Test-Driven Development (TDD)](tdd) is perhaps the most important Extreme Programming (XP) rule that we practice.
+[Test-Driven Development (TDD)](http://www.extremeprogramming.org/rules/testfirst.html) is perhaps the most important Extreme Programming (XP) rule that we practice.
 
 Business benefits of TDD:
 
@@ -25,5 +25,3 @@ At a high level, how to test is very simple:
 
 * Write test first.
 * Red-Green-Refactor cycle.
-
-[tdd]: http://www.extremeprogramming.org/rules/testfirst.html

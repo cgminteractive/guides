@@ -82,10 +82,9 @@ Rails
 * Prefer `Time.zone.parse("2014-07-04 16:05:37")` over `Time.parse("2014-07-04 16:05:37")`
 * Use `ENV.fetch` for environment variables instead of `ENV[]`so that unset
   environment variables are detected on deploy.
-* [Use blocks][date-block] when declaring date and time attributes in FactoryGirl factories.
+* Use blocks when declaring date and time attributes in FactoryGirl factories.
 * Use `touch: true` when declaring `belongs_to` relationships.
 
-[date-block]: /best-practices/samples/ruby.rb#L10
 [fkey]: http://robots.thoughtbot.com/referential-integrity-with-foreign-keys
 [`.ruby-version`]: https://gist.github.com/fnichol/1912050
 [redirects]: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.30
@@ -99,9 +98,8 @@ Testing
 * Avoid `any_instance` in rspec-mocks and mocha. Prefer [dependency injection].
 * Avoid `its`, `specify`, and `before` in RSpec.
 * Avoid `let` (or `let!`) in RSpec. Prefer extracting helper methods,
-  but do not re-implement the functionality of `let`. [Example][avoid-let].
+  but do not re-implement the functionality of `let`.
 * Avoid using `subject` explicitly *inside of an* RSpec `it` block.
-  [Example][subject-example].
 * Avoid using instance variables in tests.
 * Disable real HTTP requests to external services with
   `WebMock.disable_net_connect!`.
@@ -117,8 +115,6 @@ Testing
 * Use non-[SUT] methods in expectations when possible.
 
 [dependency injection]: http://en.wikipedia.org/wiki/Dependency_injection
-[subject-example]: ../style/testing/unit_test_spec.rb
-[avoid-let]: ../style/testing/avoid_let_spec.rb
 [`Delayed::Job` matcher]: https://gist.github.com/3186463
 [stubs and spies]: http://robots.thoughtbot.com/post/159805295/spy-vs-spy
 [assertions about state]: https://speakerdeck.com/skmetz/magic-tricks-of-testing-railsconf?slide=51

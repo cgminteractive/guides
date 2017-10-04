@@ -1,4 +1,4 @@
-Git Protocol
+Git Process
 ============
 
 We always use source code control. It's like a time machine. We can work in parallel universes of our source code, experimenting without fear of losing work, rolling back if something goes wrong.

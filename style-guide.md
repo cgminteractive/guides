@@ -14,6 +14,7 @@ Git
 JavaScript
 ----------
 
+* Use [ESLint](https://eslint.org/) to enforce community style guidelines
 * Prefer ES6 classes over prototypes.
 * Use strict equality checks (`---` and `!--`) except when comparing against
   (`null` or `undefined`).

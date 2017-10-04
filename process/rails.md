@@ -1,4 +1,4 @@
-Rails Protocol
+Rails Process
 ==============
 
 A guide for writing great web apps.
@@ -15,6 +15,8 @@ Create App
 Create the app.
 
     rails new appname -T --webpack --database=postgresql
+    cd appname
+    ./bin/setup
 
 Set Up App
 ----------
@@ -43,15 +45,15 @@ Use [Foreman](https://github.com/ddollar/foreman) to run the app locally.
 It uses your `.env` file and `Procfile` to run processes
 like Heroku's [Cedar](https://devcenter.heroku.com/articles/cedar/) stack.
 
-Git Protocol
+Git process
 ------------
 
-Follow the normal [Git Protocol](/process/git.md).
+Follow the normal [Git process](/process/git.md).
 
 Product Review
 --------------
 
-Follow the normal [Product Review protocol](/product-review.md).
+Follow the normal [Product Review process](/product-review.md).
 
 Code Review
 -----------

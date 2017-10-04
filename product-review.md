@@ -40,7 +40,4 @@ Then, share the ngrok URL in the project's Slack channel.
 Video chat and screenshare
 --------------------------
 
-Start a Google Hangout in the project's Slack channel:
-
-    /hangout
-
+Start a Video Chat (Google Hangout, Slack call, GoToMeeting) in the project's Slack channel:

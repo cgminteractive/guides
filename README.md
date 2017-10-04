@@ -14,7 +14,7 @@ Guides for getting things done, programming well, and programming in style.
   * [Test Driven Development](/process/test-driven-development.md)
 * [Product Review](./product-review.md)
 * [Code Review](./code-review.md)
-* [Stack](./stack,md)
+* [Stack](./stack.md)
 * [Style](./style-guide.md)
 
 High level guidelines:

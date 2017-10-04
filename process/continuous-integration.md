@@ -1,7 +1,7 @@
 Continuous Integration
 ======================
 
-Martin Fowler has an extensive description of Continuous Integration. The basics are:
+[Martin Fowler](https://martinfowler.com/articles/continuousIntegration.html) has an extensive description of Continuous Integration. The basics are:
 
 * We have a test suite that each developer runs on their own machine.
 * When they commit their code to a shared version control repository, the tests are run again, "integrated" with code from other developers.

@@ -94,6 +94,11 @@ Image Storage + CDN:
 
 * [AWS S3 + Cloudfront](https://aws.amazon.com/cloudfront/)
 
+Continuous Integration:
+
+* [Travis CI](https://travis-ci.org/) for open source testing and public repos
+* [Travis CI Pro](https://travis-ci.com/) for closed source testing and private repos
+
 Tools Needed
 ------------
 
