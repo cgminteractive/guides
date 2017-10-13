@@ -121,7 +121,7 @@ Close pull request and comment `Merged.`
 Set Up Production Environment
 -----------------------------
 
-* Make sure that your [`Procfile`] is set up to run Unicorn.
+* Make sure that your [`Procfile`] is set up to run Puma.
 * Make sure the PG Backups add-on is enabled.
 * Create a read-only [Heroku Follower] for your production database. If a Heroku
   database outage occurs, Heroku can use the follower to get your app back up
